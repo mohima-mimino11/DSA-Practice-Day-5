@@ -7,7 +7,7 @@ int main(){
     int n;
     scanf("%d", &n);
     int a[n+1];
-    for(int k=0; k < n; k++){
+    for(int k=1; k <= n; k++){
       scanf("%d", &a[k]);
     }
     int min = INT_MAX;
